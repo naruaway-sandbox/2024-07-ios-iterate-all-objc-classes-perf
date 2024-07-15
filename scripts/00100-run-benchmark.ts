@@ -26,9 +26,14 @@ const runBenchmark = async (params: {
 };
 
 const variants = ["with-init", "without-init"] as const;
-for (let i = 0; i < 1000; ++i) {
+const iterationCount = 2;
+for (let i = 0; i < iterationCount; ++i) {
   for (const variant of variants) {
     await installApp({ deviceUdid, variant });
     await runBenchmark({ deviceUdid, variant });
   }
 }
+
+console.log(
+  `I just ran the benchmark for ${iterationCount} times. You can modify ${import.meta.filename} to change the iteration count and you can reran the script if you want`,
+);
