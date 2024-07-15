@@ -19,9 +19,9 @@
     numClasses = objc_getClassList(classes, numClasses);
 
     //int loopCount = 0;
+    //NSLog(@"numClasses: %d", numClasses);
     for (int i = 0; i < numClasses; i++) {
         Class class = classes[i];
-        //NSLog(@"numClasses: %d", numClasses);
         unsigned int numMethods = 0;
         Method *methods = class_copyMethodList(object_getClass(class), &numMethods);
         for (int j = 0; j < numMethods; j++) {
