@@ -38,3 +38,7 @@ pnpm exec tsx ./scripts/00200-dump-data.ts
 ```
 
 ## View the benchmark result in the UI
+
+```
+pnpm run ui
+```

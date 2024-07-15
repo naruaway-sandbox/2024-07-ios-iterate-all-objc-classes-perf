@@ -4,7 +4,8 @@
   "type": "module",
   "version": "0.1.0",
   "scripts": {
-    "lint": "./node_modules/.bin/tsc --noEmit"
+    "lint": "./node_modules/.bin/tsc --noEmit",
+    "ui": "./node_modules/.bin/vite"
   },
   "dependencies": {
     "@eslint/js": "9.7.0",
