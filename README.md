@@ -37,7 +37,7 @@ BENCHMARK_TARGET_IOS_DEVICE_UDID=YOUR_DEVICE_UDID_HERE pnpm exec tsx ./scripts/0
 pnpm exec tsx ./scripts/00200-dump-data.ts
 ```
 
-## View the benchmark result in the UI
+## View the benchmark result in the web UI
 
 ```
 pnpm run ui
