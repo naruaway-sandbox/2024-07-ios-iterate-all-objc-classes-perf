@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4300B2F62C45240300982300 /* ExecuteSomethingBeforeMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 4300B2F52C45240300982300 /* ExecuteSomethingBeforeMain.m */; };
 		4300C08A2C45222700759FFE /* DemoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300C0892C45222700759FFE /* DemoAppApp.swift */; };
 		4300C08C2C45222700759FFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4300C08B2C45222700759FFE /* ContentView.swift */; };
 		4300C08E2C45222800759FFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4300C08D2C45222800759FFE /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4300B2F52C45240300982300 /* ExecuteSomethingBeforeMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExecuteSomethingBeforeMain.m; sourceTree = "<group>"; };
 		4300C0862C45222700759FFE /* DemoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4300C0892C45222700759FFE /* DemoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoAppApp.swift; sourceTree = "<group>"; };
 		4300C08B2C45222700759FFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,6 +53,7 @@
 		4300C0882C45222700759FFE /* DemoApp */ = {
 			isa = PBXGroup;
 			children = (
+				4300B2F52C45240300982300 /* ExecuteSomethingBeforeMain.m */,
 				4300C0892C45222700759FFE /* DemoAppApp.swift */,
 				4300C08B2C45222700759FFE /* ContentView.swift */,
 				4300C08D2C45222800759FFE /* Assets.xcassets */,
@@ -99,6 +102,7 @@
 				TargetAttributes = {
 					4300C0852C45222700759FFE = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -139,6 +143,7 @@
 			files = (
 				4300C08C2C45222700759FFE /* ContentView.swift in Sources */,
 				4300C08A2C45222700759FFE /* DemoAppApp.swift in Sources */,
+				4300B2F62C45240300982300 /* ExecuteSomethingBeforeMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +274,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoApp/Preview Content\"";
@@ -287,6 +293,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.naruaway.demo.DemoApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoApp/Preview Content\"";
