@@ -16,7 +16,7 @@ export const App = () => {
           items.map((x) => x.staticRuntimeInitializationFinished),
         )!;
         return (
-          <div>
+          <div key={variant}>
             <div>
               {variant}: median: {median.toFixed(0)} ms, ({items.length} data
               points)
